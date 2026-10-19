@@ -6,7 +6,7 @@
 | Owner and intended audience | Owner: repository owner; audience: unknown until brief |
 | Local folder or workspace | `/workspace/ato-workshop-demo/my-first-site` |
 | GitHub repository and branch | `ivanjonas/ato-workshop-demo`, branch `work` at setup time |
-| Version | Working tree; source commit to be recorded after save |
+| Version | Setup checkpoint `62965b5` on `origin/work` |
 | Last updated | October 19, 2026 |
 | Chatbot and route | Codex connected workspace |
 | Current lesson and skill | Website setup; awaiting project brief |
@@ -40,7 +40,7 @@ Out of scope: Accounts, payments, databases, customer data, tracking, and paid s
 
 ## Current blocker or last change
 
-Exact steps: Created a separate static website folder and added Vercel-ready configuration.
+Exact steps: Created a separate static website folder, added Vercel-ready configuration, and saved the setup checkpoint to GitHub branch `work`.
 
 Expected result: The source is complete enough to open locally and the folder can be imported as a separate Vercel project.
 

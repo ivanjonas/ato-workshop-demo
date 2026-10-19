@@ -3,12 +3,12 @@
 | Field | Value |
 | --- | --- |
 | Website | `my-first-site` |
-| GitHub source version | Not yet saved to the remote repository |
+| GitHub source version | Setup checkpoint `62965b5` on branch `work` |
 | Vercel account or team | Not selected |
 | Vercel project | Not created |
 | Deployment URL | Not deployed |
 | Deployment status | Prepared locally; account connection pending |
-| Recovery target | Repository source version to be recorded after the first checked commit |
+| Recovery target | GitHub setup checkpoint `62965b5` |
 
 ## Deployment checks
 
