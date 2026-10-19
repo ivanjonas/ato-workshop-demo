@@ -6,6 +6,8 @@ This folder is the website project inside the `ato-workshop-demo` repository. It
 
 - `index.html` is a temporary, responsive setup page.
 - `vercel.json` supplies version-controlled static-site settings.
+- Vercel project `my-first-site` has been created, but its first deployment is blocked until the Vercel connection is reauthorized for scope `ato-boy`.
+- Vercel's GitHub integration is not yet installed for `ivanjonas/ato-workshop-demo`, so automatic Git-triggered deployments are not active.
 - The content brief, final page structure, and primary action are intentionally undecided until the website description is provided.
 
 ## Local check

@@ -10,7 +10,7 @@
 | Last updated | October 19, 2026 |
 | Chatbot and route | Codex connected workspace |
 | Current lesson and skill | Website setup; awaiting project brief |
-| Vercel project and URL | Not linked or deployed |
+| Vercel project and URL | Project `my-first-site` (`prj_Bh5X69pSIWUrd19ipTT7dqtP8bSO`) created; not deployed |
 | Last working copy and how to reopen it | `index.html`; open directly in a browser |
 
 ## Goal and agreed scope
@@ -36,23 +36,23 @@ Out of scope: Accounts, payments, databases, customer data, tracking, and paid s
 | Static source check | Working tree, `index.html` | Passed | File is present and non-empty; repository whitespace check passed |
 | Vercel configuration | Working tree, `vercel.json` | Passed | Configuration parses as valid JSON |
 | Narrow layout | Working tree, `index.html` | Not tested | Pending browser observation |
-| Vercel deployment | Not deployed | Not tested | Vercel account/team authorization is not configured in this workspace |
+| Vercel deployment | Project created; not deployed | Failed | Deployment API returned 403 because the connection is not authorized for Vercel scope `ato-boy` |
 
 ## Current blocker or last change
 
-Exact steps: Created a separate static website folder, added Vercel-ready configuration, and saved the setup checkpoint to GitHub branch `work`.
+Exact steps: Created a separate static website folder, added Vercel-ready configuration, saved the setup checkpoint to GitHub branch `work`, and created Vercel project `prj_Bh5X69pSIWUrd19ipTT7dqtP8bSO`.
 
 Expected result: The source is complete enough to open locally and the folder can be imported as a separate Vercel project.
 
-Actual result or error: Source and configuration checks passed. Browser rendering was not observed. No deployment attempted because no Vercel identity is configured.
+Actual result or error: Source and configuration checks passed. Vercel project creation succeeded. Git linking failed because the Vercel GitHub integration is not installed for `ivanjonas/ato-workshop-demo`. Direct deployment and subsequent project inspection returned 403 because the connection is not authorized for Vercel scope `ato-boy`. The CLI fallback has no authenticated Vercel session. Browser rendering was not observed.
 
-Repairs already attempted and their results: None.
+Repairs already attempted and their results: Tried Git-backed project creation, direct source deployment, scoped project inspection, and the supported CLI fallback. The project exists, but deployment requires reauthorizing the Vercel connection for `ato-boy`; Git-triggered deployments additionally require installing Vercel's GitHub integration for the repository.
 
 ## Next action
 
-One small task: Turn the owner's website description into `project-brief.md`, `project-scope.md`, and `project-plan.md` before replacing the placeholder.
+One small task: Reauthorize the Vercel connection for scope `ato-boy`, then deploy the existing project. To enable automatic GitHub deployments, also install Vercel's GitHub integration for `ivanjonas/ato-workshop-demo`.
 
-Completion check: The visitor, three main sections, primary action, and five observable checks are recorded.
+Completion check: Vercel reports a READY production deployment and its URL serves the placeholder page.
 
 Who owns the next edit: Codex after the owner supplies the content description.
 

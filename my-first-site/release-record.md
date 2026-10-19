@@ -4,10 +4,10 @@
 | --- | --- |
 | Website | `my-first-site` |
 | GitHub source version | Setup checkpoint `62965b5` on branch `work` |
-| Vercel account or team | Not selected |
-| Vercel project | Not created |
+| Vercel account or team | Scope `ato-boy` (`team_OAkvsCsd7lpt9XLe8Npyqd3z`); connection needs reauthorization for deployment access |
+| Vercel project | `my-first-site` (`prj_Bh5X69pSIWUrd19ipTT7dqtP8bSO`) |
 | Deployment URL | Not deployed |
-| Deployment status | Prepared locally; account connection pending |
+| Deployment status | Blocked: deployment API returned 403 for scope `ato-boy` |
 | Recovery target | GitHub setup checkpoint `62965b5` |
 
 ## Deployment checks
@@ -22,4 +22,4 @@
 
 ## Limitations
 
-The current page is a temporary setup placeholder, not the finished website. Publishing requires connecting the GitHub repository to a new Vercel project under the owner's selected account or team.
+The current page is a temporary setup placeholder, not the finished website. The Vercel project exists, but publishing requires reauthorizing the connected Vercel account for scope `ato-boy`. Automatic deployments from GitHub also require installing Vercel's GitHub integration for `ivanjonas/ato-workshop-demo`.
